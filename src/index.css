@@ -1,0 +1,46 @@
+@import url(https://db.onlinewebfonts.com/c/1a5c2d8bbd4e28d99a6efcbb9a5b378f?family=JejuMyeongjo);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "JejuMyeongjo";
+  src: url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.eot");
+  src: url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/1a5c2d8bbd4e28d99a6efcbb9a5b378f.svg#JejuMyeongjo")format("svg");
+}
+
+.jeju {
+  font-family: "JejuMyeongjo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  letter-spacing: 0.01em;
+}
+
+.roboto {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.road-rage {
+  font-family: "Road Rage", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alatsi {
+  font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
